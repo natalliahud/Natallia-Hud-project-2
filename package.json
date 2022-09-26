@@ -1,0 +1,25 @@
+{
+  "name": "natallia-hud-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 3 versions, not dead",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalliahud/Natallia-Hud-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natalliahud/Natallia-Hud-project-2/issues"
+  },
+  "homepage": "https://github.com/natalliahud/Natallia-Hud-project-2#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
