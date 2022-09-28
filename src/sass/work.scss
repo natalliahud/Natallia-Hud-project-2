@@ -5,10 +5,11 @@
   flex-wrap: wrap;
 }
 .work-item {
-  //width: 378px;
   padding: 0 24% 20% 0;
+  flex-grow: 1;
   overflow: hidden;
-  border: 2px solid #FFFFFF;
+  margin-bottom: 1px;
+  margin-right: -2px;
   position: relative;
   &:hover .work-title {
     opacity: 1;
@@ -23,12 +24,16 @@
       display: none;
     }
     padding: 0 32% 30% 0;
+    margin-right: 1px;
+    margin-bottom: -1;
   }
   @media (max-width: 500px) {
     &:nth-child(n+5) {
       display: none;
     }
     padding: 0 48% 40% 0;
+    margin-bottom: 1px;
+    margin-right: -2px;
   }
 }
 .work-img img {
@@ -38,7 +43,6 @@
   position: absolute;
   top: 0;
   left: 0;
-
 }
 .work-title {
   position: absolute;

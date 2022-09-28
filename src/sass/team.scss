@@ -1,0 +1,75 @@
+.team {
+  padding: 115px 0;
+}
+.team-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.team-item {
+  width: 250px;
+  //margin-right: 30px;
+}
+.team-img {
+  //width: 200px;
+  //height: 200px;
+  margin-bottom: 50px;
+}
+.team-img img {
+  width: 250px;
+  height: 250px;
+}
+.information {
+}
+span {
+  display: block;
+}
+#name {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $_24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+#job {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FF4343;
+  margin-bottom: 20px;
+}
+.team-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $_18px;
+  line-height: 21px;
+  color: #6C7279;
+  margin-bottom: 40px;
+}
+.list-team {
+  display: flex;
+
+		// .list-team__icon
+
+		&__icon {
+      width: 39px;
+      height: 39px;
+      border: 1px solid #C6CBCD;
+      margin-right: 5px;
+		}
+}
+.fa-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C6CBCD;
+}
+#team-facebook {
+  
+}

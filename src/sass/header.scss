@@ -179,6 +179,21 @@
   display: block;
   margin: auto;
   transition: 0.2s;
+  animation-name: btn;
+  position: relative;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  @keyframes btn  {
+    0%{
+      background: #FF4343;
+    }
+    50% {
+      background: #864545;
+    }
+    100% {
+      background: #FF4343;
+    }
+  }
   @media (max-width: 998px) {
     width: 350px;
     height: 70px;
