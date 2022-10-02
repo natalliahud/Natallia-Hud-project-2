@@ -1,0 +1,22 @@
+.footer {
+  padding: 24px 0;
+  background: #2C3154;
+}
+.container {
+}
+.footer-text {
+  width: 370px;
+  margin: auto;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #808080;
+  text-align: center;
+  text-transform: capitalize;
+  @media (max-width: 500px) {
+    width: 280px;
+  }
+}
+

@@ -1,0 +1,30 @@
+.download {
+  padding: 114px 0;
+  @media (max-width: 600px) {
+    padding: 90px 0;
+  }
+}
+.download-title {
+  @include h3;
+  text-align: center;
+  margin-bottom: 15px;
+  @media (max-width: 600px) {
+    font-size: $_24px;
+  }
+
+}
+.download-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px; 
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  @media (max-width: 600px) {
+    font-size: $_14px;
+  }
+}
+.btn {
+}
